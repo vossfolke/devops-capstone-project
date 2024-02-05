@@ -12,7 +12,6 @@ from service.common import log_handlers
 
 # Create Flask application
 app = Flask(__name__)
-CORS(app)
 app.config.from_object(config)
 
 # Import the routes After the Flask app is created
